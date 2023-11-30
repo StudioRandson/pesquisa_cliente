@@ -1,6 +1,6 @@
 <?php
 
-include('protect.php');
+include('protect1.php');
 
 
 
@@ -103,7 +103,8 @@ if(isset($_POST['email']) || isset($_POST['senha'])) {
 </style>
     
 <body>
-<a href='index.php' button class='btn btn-success'>VOLTAR PARA PESQUISA</button></a>
+<a href='index1.php' button class='btn btn-success'>VOLTAR PARA PESQUISA</button></a>
+
 </body>
                     
 </html>
