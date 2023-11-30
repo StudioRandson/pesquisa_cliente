@@ -103,7 +103,7 @@ if(isset($_POST['email']) || isset($_POST['senha'])) {
 </style>
     
 <body>
-<a href='index.php' button class='btn btn-success'>sair</button></a>
+<a href='index.php' button class='btn btn-success'>VOLTAR</button></a>
 </body>
                     
 </html>
