@@ -10,14 +10,14 @@ if(!empty($_POST['estrela'])){
 	$resultado_avaliacos = mysqli_query($conn, $result_avaliacos);
 	
 	if(mysqli_insert_id($conn)){
-		$_SESSION['msg'] = "Avaliação cadastrada com sucesso";
+		$_SESSION['msg'] = "";
 		header("Location: avaliacos2/index.php");
 	}else{
 		$_SESSION['msg'] = "Erro ao cadastrar a avaliação";
-		header("Location: avaliacos2/index.php");
+		header("Location: index.php");
 	}
 	
 }else{
 	$_SESSION['msg'] = "Necessário selecionar pelo menos 1 estrela";
-	header("Location: avaliacos2/index.php");
+	header("Location: index.php");
 }

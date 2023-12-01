@@ -31,7 +31,7 @@ session_start();
 	</style>
 	<body>
 		<div class='container text-center' ><br><br><br>
-			<h1>De 1 à 5 o Quanto está satisfeito está com o nosso atendimento</h1>
+			<h1>avaliacos2</h1>
 						
 			<?php
 			if(isset($_SESSION['msg'])){
@@ -58,7 +58,7 @@ session_start();
 					<label for="estrela_cinco"><i class="fa"></i></label>
 					<input type="radio" id="estrela_cinco" name="estrela" value="5"><br><br>
 					
-					<input  type="submit" class='btn btn-success' value="Cadastrar">
+					<input  type="submit" class='btn btn-success' value="PRÓXIMO">
 					
 					
 				</div>

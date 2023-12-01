@@ -58,7 +58,7 @@ session_start();
 					<label for="estrela_cinco"><i class="fa"></i></label>
 					<input type="radio" id="estrela_cinco" name="estrela" value="5"><br><br>
 					
-					<input  type="submit" class='btn btn-success' value="Cadastrar">
+					<input  type="submit" class='btn btn-success' value="PRÓXIMO">
 					
 					
 				</div>
