@@ -60,6 +60,13 @@ if(isset($_POST['email']) || isset($_POST['senha'])) {
         color: white;
         
     }
+
+    .bi{
+        color: #000;
+        text-decoration:none; 
+        font-weight: bold
+
+    }
 </style>
 <body>
 <div class="box">
