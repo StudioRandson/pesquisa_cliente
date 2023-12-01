@@ -31,7 +31,7 @@ session_start();
 	</style>
 	<body>
 		<div class='container text-center' ><br><br><br>
-			<h1>avaliacos3</h1>
+			<h1>Página 3</h1>
 						
 			<?php
 			if(isset($_SESSION['msg'])){

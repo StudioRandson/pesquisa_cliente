@@ -31,7 +31,7 @@ session_start();
 	</style>
 	<body>
 		<div class='container text-center' ><br><br><br>
-			<h1>Quão Satisfeito está com o nosso atendimento</h1>
+			<h1>Página 1</h1>
 						
 			<?php
 			if(isset($_SESSION['msg'])){
